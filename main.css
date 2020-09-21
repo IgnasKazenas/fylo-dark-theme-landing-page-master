@@ -1,0 +1,22 @@
+body {
+    display: inline-block;
+    background-color: #1c2230;
+    width: 1440px;
+}
+header {
+    display: inline-block;
+    width: 95%;
+    margin-top: 80px;
+    margin-left: 5%;
+    /* background-color: #1c2230; */
+}
+    .header-buttons {
+        display: inline-block;
+        width: 100px;
+        padding: 10px;
+        float: right;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Raleway;
+    }
