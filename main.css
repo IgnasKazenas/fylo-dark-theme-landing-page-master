@@ -1,14 +1,13 @@
 body {
     display: inline-block;
-    background-color: #1c2230;
+    /* background-color: #1c2230; */
+    background-color: hsl(218, 28%, 13%);
 }
 header {
     display: inline-block;
     width: 90%;
     padding: 5%;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
+    background-color: #1c2230;
 }
     .header-buttons {
         display: inline-block;
@@ -23,11 +22,10 @@ header {
         justify-content: space-between;
         align-items: center;
     }
+
+/* GET STARTED SECTION */
 .get-started {
     display: inline-block;
-    /* width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%; */
     padding-bottom: 12%;
     text-align: center;
     color: white;
@@ -36,6 +34,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 100%;
+    background-color: #1c2230;
     
 }
     .txt1 {
@@ -56,7 +55,6 @@ header {
     .button {
         display: inline-block;
         width: 280px;
-        /* height: 50px; */
         background: rgb(103,215,228);
         background: linear-gradient(90deg, rgba(103,215,228,1) 0%, rgba(63,173,206,1) 100%);
         border-radius: 30px;
@@ -65,15 +63,14 @@ header {
         font-size: 17px;
         color: white;
     }
+
+/* 4 ELEMENTS SECTION */
 .elements4 {
     display: inline-block;
     color: white;
     text-align: center;
-    /* width: 70%;
-    margin-left: 15%; */
     font-family: Raleway;
-    /* padding: 30px; */
-    background-color: hsl(218, 28%, 13%);
+    /* background-color: hsl(218, 28%, 13%); */
 }
     .sec {
         display: inline-block;
@@ -95,3 +92,37 @@ header {
         .sec > .par {
             width: 80%;
         }
+
+/* PRODUCTIVE SECTION */
+.productive {
+    display: inline-block;
+    font-family: Raleway;
+    width: 100%;
+}
+    .productive-img {
+        display: inline-block;
+        float: left;
+        width: 615px;
+        margin-left: 5%;
+    }
+    .productive-text {
+        display: inline-block;
+        width: 500px;
+        margin-left: 5%;
+        float: left;
+        color: white;
+        margin-top: 7%;
+    }
+        .prod-head {
+            display: inline-block;
+            width: 50%;
+        }
+    .prod-link {
+        display: inline-block;
+        color: grey;
+        text-decoration: none;
+        border-bottom-style: solid;
+        border-color: grey;
+    }
+
+/* TESTIMONIALS SECTION */
