@@ -1,14 +1,14 @@
 body {
     display: inline-block;
     background-color: #1c2230;
-    width: 1440px;
 }
 header {
     display: inline-block;
-    width: 95%;
-    margin-top: 80px;
-    margin-left: 5%;
-    /* background-color: #1c2230; */
+    width: 90%;
+    padding: 5%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
 }
     .header-buttons {
         display: inline-block;
@@ -19,4 +19,79 @@ header {
         text-decoration: none;
         font-size: 14px;
         font-family: Raleway;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+.get-started {
+    display: inline-block;
+    /* width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%; */
+    padding-bottom: 12%;
+    text-align: center;
+    color: white;
+    font-Family: Raleway;
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    
+}
+    .txt1 {
+        display: inline-block;
+        font-size: 45px;
+        font-weight: 700;
+        width: 65%;
+        padding: 2%;
+    }
+    .txt2 {
+        display: inline-block;
+        font-size: 18px;
+        width: 40%;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 2%;
+    }
+    .button {
+        display: inline-block;
+        width: 280px;
+        /* height: 50px; */
+        background: rgb(103,215,228);
+        background: linear-gradient(90deg, rgba(103,215,228,1) 0%, rgba(63,173,206,1) 100%);
+        border-radius: 30px;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 17px;
+        color: white;
+    }
+.elements4 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    /* width: 70%;
+    margin-left: 15%; */
+    font-family: Raleway;
+    /* padding: 30px; */
+    background-color: hsl(218, 28%, 13%);
+}
+    .sec {
+        display: inline-block;
+        width: 400px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+    .sec > img {
+        height: 88px;
+        margin-bottom: 20px;
+    }
+        .sec > .head {
+            display: inline-block;
+            width: 80%;
+            font-size: 18px;
+            margin-bottom: -25px;
+        }
+        .sec > .par {
+            width: 80%;
+        }
